@@ -23,11 +23,15 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['var(--font-inter)', ...fontFamily.sans],
+        satoshi: ['Satoshi', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
       },
       colors: {
         ...colors,
         'light-gold': '#f5bc51',
         'dark-gold': '#533519',
+        'primary-orange': '#FF5722',
+
       },
     },
   },
